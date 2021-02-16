@@ -28,6 +28,10 @@ something like this:
     └── templates/    # The template files
         └── tests/    # The test files
 
+## Some techiniques
+
+- `helm install --debug --dry-run <release_name> ./<chart_name>`: For checking/testing purpose without installing the chart. This will render the templates. But instead of installing the chart, it will return the rendered template to you so you can see the output.
+
 
 # Resources:
 
