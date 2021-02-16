@@ -13,7 +13,7 @@ The Kubernetes package manager. Helm deploys charts, which you can think of as a
 
 # Charts
 
-Helm uses a packaging format called charts. A Chart is a Helm package. It contains all of the resource definitions necessary to run an application, tool, or service inside of a Kubernetes cluster. 
+Helm uses a packaging format called charts, helm packages are called charts. A Chart is a Helm package, bundle of YAML files. It contains all of the resource definitions necessary to run an application, tool, or service inside of a Kubernetes cluster. 
 
 # Helm Chart Directory Structure
 
@@ -39,3 +39,9 @@ something like this:
 - [x] [What is Helm in Kubernetes? Helm and Helm Charts explained](https://www.youtube.com/watch?v=Zzwq9FmZdsU)
 - [x] [What is Helm Charts | Helm Kubernetes Demo with NGINX](https://www.youtube.com/watch?v=j-YBgTnV2v0)
 - [x] [Helm 3 Deep Dive](https://www.youtube.com/watch?v=afCRt5Gd6Rk&t=1120s)
+- [x] [The Chart Template Developer's Guide](https://helm.sh/docs/chart_template_guide/)
+- [x] [Charts](https://helm.sh/docs/topics/charts/)
+- [x] [The Chart Best Practices Guide](https://helm.sh/docs/chart_best_practices/)
+- [x] [Chart Hooks](https://helm.sh/docs/topics/charts_hooks/)
+- [x] [Chart Development Tips and Tricks](https://helm.sh/docs/howto/charts_tips_and_tricks/)
+- [x] [Building Helm Charts From the Ground Up](https://www.youtube.com/watch?v=vQX5nokoqrQ)
