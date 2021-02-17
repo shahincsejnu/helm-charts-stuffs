@@ -1,9 +1,9 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: {{ include "demoChart.fullname" . }}
+  name: {{ include "demochart.fullname" . }}
   labels:
-    {{- include "demoChart.labels" . | nindent 4 }}
+    {{- include "demochart.labels" . | nindent 4 }}
 spec:
   type: {{ .Values.service.type }}
   ports:
@@ -12,4 +12,4 @@ spec:
       protocol: TCP
       name: http
   selector:
-    {{- include "demoChart.selectorLabels" . | nindent 4 }}
+    {{- include "demochart.selectorLabels" . | nindent 4 }}

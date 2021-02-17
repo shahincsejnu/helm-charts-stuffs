@@ -1,5 +1,7 @@
 # helm-charts-stuffs
 
+N.B: Always use lower case during naming a helm `chart`.
+
 # Helm
 The Kubernetes package manager. Helm deploys charts, which you can think of as a packaged application. It is a collection of all your versioned, pre-configured application resources which can be deployed as one unit.
 
