@@ -31,7 +31,7 @@ something like this:
 ## Some techiniques
 
 - `helm install --debug --dry-run <release_name> ./<chart_name>`: For checking/testing purpose without installing the chart. This will render the templates. But instead of installing the chart, it will return the rendered template to you so you can see the output.
-
+- In YAML we can do typecast like: `age: !!str 21` or `port: !!int "80"`: !str tells the parser that age is a string, even if it looks like an int. And port is treated as an int, even though it is quoted.
 
 # Resources:
 

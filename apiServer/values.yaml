@@ -1,0 +1,21 @@
+labels:
+  app: apiServer
+
+deployment:
+  replicas: 1
+  container:
+    name: apiServer
+    image: shahincsejnu/httpapiserver:v1.0.5
+    port: 8080
+
+service:
+  type: NodePort
+  ports:
+      port: 8080
+      targetPort: 8080
+      nodePort: 31000
+
+ingress:
+  host: api.server
+  path: /
+  pathType: Prefix
