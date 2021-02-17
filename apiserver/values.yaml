@@ -1,10 +1,10 @@
 labels:
-  app: apiServer
+  app: apiserver
 
 deployment:
   replicas: 1
   container:
-    name: apiServer
+    name: apiserver
     image: shahincsejnu/httpapiserver:v1.0.5
     port: 8080
 
