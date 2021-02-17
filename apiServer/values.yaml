@@ -19,3 +19,7 @@ ingress:
   host: api.server
   path: /
   pathType: Prefix
+
+hook:
+  job:
+    sleepyTime: 10
