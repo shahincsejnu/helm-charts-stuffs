@@ -3,9 +3,11 @@ entries:
   apiServer:
   - apiVersion: v2
     appVersion: 1.0.5
-    created: "2021-02-17T18:51:36.69098655+06:00"
+    created: "2021-02-17T19:14:38.81412937+06:00"
     description: A RESTful API server
     digest: 1018f0f26801acd95ef46f7aa39231d29897c635ba3e1e653a85467ab13d9505
     name: apiServer
+    urls:
+    - https://shahincsejnu.github.io/helm-charts-stuffs/apiServer/apiServer-0.1.0.tgz
     version: 0.1.0
-generated: "2021-02-17T18:51:36.690559019+06:00"
+generated: "2021-02-17T19:14:38.813650415+06:00"
