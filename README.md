@@ -32,10 +32,10 @@ something like this:
 
 - `helm install --debug --dry-run <release_name> ./<chart_name>`: For checking/testing purpose without installing the chart. This will render the templates. But instead of installing the chart, it will return the rendered template to you so you can see the output.
 - In YAML we can do typecast like: `age: !!str 21` or `port: !!int "80"`: !str tells the parser that age is a string, even if it looks like an int. And port is treated as an int, even though it is quoted.
-- `helm create <chart_name>`: It create a new chart for you with the chart structure by default
+- `helm create <chart_name>`: It create a new chart for you with the chart structure by default, also can look [this tuto](https://helm.sh/docs/helm/helm_package/)
 - `helm package <chart_name>`: Helm can package your chart into an archive for you, which can be uploaded in helm hub and people can install it
+- after the prev command then for giving your chart to a remote repository follow [this tuto](https://helm.sh/docs/helm/helm_repo_index/)
 - `helm lint <chart_name>`: You can also use helm to help you find issues with your chart's formatting or information.
-
 
 # Resources:
 
