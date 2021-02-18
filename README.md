@@ -2,6 +2,18 @@
 
 N.B: Always use lower case during naming a helm `chart`.
 
+# How to use this repo in your machine
+
+* At first add this repo in your local machine by:
+  - `helm repo add <repo_name> https://shahincsejnu.github.io/helm-charts-stuffs`
+* Then update your repo by:
+  - `helm repo update`
+* Check whether it has been added by (it will show all the charts that are in my repo):
+  - `helm search repo <repo_name>`
+* Now install any chart from this repo by:
+  - `helm install <release_name> <repo_name>/<chart_name>`
+
+
 # Helm
 The Kubernetes package manager. Helm deploys charts, which you can think of as a packaged application. It is a collection of all your versioned, pre-configured application resources which can be deployed as one unit.
 
@@ -38,6 +50,7 @@ something like this:
 - `helm package <chart_name>`: Helm can package your chart into an archive for you, which can be uploaded in helm hub and people can install it
 - `helm repo index <dir>`: after the prev command (use this one) then for giving your chart to a remote repository follow [this tuto](https://helm.sh/docs/helm/helm_repo_index/)
 - `helm lint <chart_name>`: You can also use helm to help you find issues with your chart's formatting or information.
+
 
 # Resources:
 
